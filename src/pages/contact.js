@@ -20,7 +20,7 @@ export default function Contact() {
 
       <script type="text/babel">
 
-      ReactDOM.render(
+      
         <form name="contact" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <p>
@@ -36,8 +36,7 @@ export default function Contact() {
             <button type="submit">Send</button>
           </p>
         </form>,
-        document.getElementById("root")
-      );
+     
 
       </script>
     </div>
